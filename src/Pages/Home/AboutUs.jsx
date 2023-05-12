@@ -4,7 +4,7 @@ import img2 from '../../assets/images/about_us/parts.jpg'
 
 const AboutUs = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 md:my-28 p-5 md:p-0'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:my-28 p-5 md:p-10 shadow-xl'>
             <div className='relative'>
                 <div>
                     <img className='h-full w-3/4 rounded-lg' src={img1} alt="" />
@@ -20,7 +20,7 @@ const AboutUs = () => {
                     <p className='text-gray-600'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                     <p className='text-gray-600'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 </div>
-                <button className="btn bg-[#FF3811] border-0">Discover More</button>
+                <button className="btn bg-[#FF3811] border-0">Get More Info</button>
             </div>
         </div>
     );

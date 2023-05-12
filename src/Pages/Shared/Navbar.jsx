@@ -1,5 +1,6 @@
 import React from 'react';
 import navLogo from '../../assets/logo.svg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -21,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg font-bold">
-                    <li><a>Home </a></li>
+                    <li><Link to='/'>Home</Link></li>
                     <li><a>About </a></li>
                     <li><a>Services </a></li>
                     <li><a>Blog </a></li>
